@@ -6,10 +6,10 @@ import datetime
 def help():
     #使用方法のテキスト表示
     usage = """Usage :-
-$ ./todo add "todo item"  # Add a new todo
-$ ./todo ls               # Show remaining todos
-$ ./todo del NUMBER       # Delete a todo
-$ ./todo done NUMBER      # Complete a todo
+$ ./todo add "todo item"  # Add a new task
+$ ./todo ls               # Show remaining tasks
+$ ./todo del NUMBER       # Delete a task
+$ ./todo done NUMBER      # Complete a task
 $ ./todo help             # Show usage
 $ ./todo report           # Statistics"""
     
